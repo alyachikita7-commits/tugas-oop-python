@@ -24,7 +24,6 @@ resto3.describe_restaurant()
 resto3.open_restaurant()
 
 
-
 #Penambahan atribut
 from restaurant import Restaurant
 
@@ -41,9 +40,6 @@ resto1.describe_restaurant()
 resto1.open_restaurant()
 
 print("Jumlah pelanggan awal :", resto1.number_served)
-
-resto1.number_served = 13
-print("Setelah diubah        :", resto1.number_served)
 
 resto1.set_number_served(36)
 print("Setelah set           :", resto1.number_served)
@@ -62,9 +58,6 @@ resto2.open_restaurant()
 
 print("Jumlah pelanggan awal :", resto2.number_served)
 
-resto2.number_served = 25
-print("Setelah diubah        :", resto2.number_served)
-
 resto2.set_number_served(40)
 print("Setelah set           :", resto2.number_served)
 
@@ -81,9 +74,6 @@ resto3.describe_restaurant()
 resto3.open_restaurant()
 
 print("Jumlah pelanggan awal :", resto3.number_served)
-
-resto3.number_served = 16
-print("Setelah diubah        :", resto3.number_served)
 
 resto3.set_number_served(46)
 print("Setelah set           :", resto3.number_served)
